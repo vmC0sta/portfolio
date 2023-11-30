@@ -589,6 +589,11 @@ video {
   margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-x-10> :not([hidden])~ :not([hidden]){
+  margin-right: calc(1.50rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.50rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -876,3 +881,7 @@ video {
   padding: 0.2rem 0.5rem;
   border-radius: 2rem;
  }
+
+ .white-space-nowrap {
+  white-space: nowrap;
+}
