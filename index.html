@@ -15,10 +15,12 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
-<body class="bg-gradient-to-b from-[#001D40] via-[#192F49] to-[#0e2036]   m-10"style="font-family: 'Space Grotesk', sans-serif;">
+<body class="bg-gradient-to-b from-[#001D40] via-[#192F49] to-[#0e2036]   m-10"
+    style="font-family: 'Space Grotesk', sans-serif;">
     <div class="reveal" style="position: fixed; right: 0;">
-        <img src="./assets/images/brazil.svg" onclick="changeLanguage('pt')">
-        <img src="./assets/images/unitedStates.svg" onclick="changeLanguage('en')">
+        <button class="flex" style="border: none;" onclick="changeLanguage('pt')"><img src="./assets/images/brazil.svg" alt=""></button>
+        <button class="flex" style="border: none;" onclick="changeLanguage('en')"><img src="./assets/images/unitedStates.svg"></button>
+
     </div>
     <header class="reveal flex justify-center text-white" style="visibility: hidden;">
         <nav class="p-1 bg-[#d9d9d910] w-[17rem] rounded-full">
@@ -33,18 +35,20 @@
         <div class="flex justify-center">
             <img src="./assets/images/image 1.svg" alt="avatar" class="flex justify-center">
         </div>
-        <div class="flex m-auto justify-center p-1 bg-[#00244F] text-white rounded-full space-x-2 w-[16rem]">
+        <div class="flex m-auto justify-center p-1 bg-[#00244F] text-white rounded-full space-x-2 w-[17rem]">
             <img src="./assets/images/Ellipse 1.svg">
             <span id="status">Available for opportunies</span>
         </div>
     </div>
     <main>
         <section class="reveal" style="visibility: hidden;">
-            <h1 class="flex justify-center text-center text-white text-4xl" style="font-family: 'Crimson Text', serif;" id="title1">
+            <h1 class="flex justify-center text-center text-white text-4xl" style="font-family: 'Crimson Text', serif;"
+                id="title1">
                 Wander Throug My Portfolio</h1>
             <div class="text-center text-white text-opacity-60 text-xs m-5">
-                <p class="text-center text-white text-opacity-60 text-xs font-normal" id="subtitle-1">I`m a student of programming<br>
-My interest is in Java and Web development</pre>
+                <p class="text-center text-white text-opacity-60 text-xs font-normal" id="subtitle-1">I`m a student of
+                    programming<br>
+                    My interest is in Java and Web development</pre>
             </div>
             <div class="flex justify-center m-10">
                 <button class="animate-bounce flex space-x-3 bg-white text-white btn-cssbuttons">
@@ -215,7 +219,8 @@ My interest is in Java and Web development</pre>
         </section>
         <section class="my-[4rem] reveal" style="visibility:hidden;" id="2">
             <pre class="m-10 text-center" style="color: #70FF00;" id="whatIdo">W H A T  I  D O</pre>
-            <h1 class="flex justify-center text-center text-white text-4xl" style="font-family: 'Crimson Text', serif;" id="title2">
+            <h1 class="flex justify-center text-center text-white text-4xl" style="font-family: 'Crimson Text', serif;"
+                id="title2">
                 Recently Projects
             </h1>
 
@@ -225,7 +230,8 @@ My interest is in Java and Web development</pre>
                     <img src="./assets/images/foto.svg" alt="">
                 </div>
                 <div class="text-white text-opacity-60 text-center text-xs m-5">
-                    <p id="project1">A responsive design allows users to enter a URL, generating a QR code on the screen for
+                    <p id="project1">A responsive design allows users to enter a URL, generating a QR code on the screen
+                        for
                         convenient
                         use.</p>
                 </div>
@@ -247,7 +253,8 @@ My interest is in Java and Web development</pre>
                     <img src="./assets/images/Screenshot_2 1.svg" alt="">
                 </div>
                 <div class="text-white text-opacity-60 text-center text-xs m-5">
-                    <p id="project2">In a responsive design, users can interactively choose a numerical rating from 1 to 5 stars.
+                    <p id="project2">In a responsive design, users can interactively choose a numerical rating from 1 to
+                        5 stars.
                     </p>
                 </div>
                 <div class="flex justify-center" style="margin-top: 3rem;">
@@ -263,12 +270,13 @@ My interest is in Java and Web development</pre>
                 </div>
             </div>
             <div class="reveal text-white my-[4rem] p-5 rounded-md"
-            style="height: 25rem;background: linear-gradient(90deg, rgba(0, 65, 80, 0.85) 21.13%, rgba(0, 65, 80, 0.21) 65.03%); visibility: hidden;">
+                style="height: 25rem;background: linear-gradient(90deg, rgba(0, 65, 80, 0.85) 21.13%, rgba(0, 65, 80, 0.21) 65.03%); visibility: hidden;">
                 <div class="flex justify-center m-5">
                     <img src="./assets/images/Screenshot_3 1.svg" alt="">
                 </div>
                 <div class="text-white text-opacity-60 text-center text-xs m-5">
-                    <p id="project3">This repo logs my Java learning at Entra21, covering basics to advanced Java, ending with a
+                    <p id="project3">This repo logs my Java learning at Entra21, covering basics to advanced Java,
+                        ending with a
                         hands-on project.
                     </p>
                 </div>
@@ -294,10 +302,18 @@ My interest is in Java and Web development</pre>
             <h1 class="flex justify-center text-center text-white text-4xl m-5"
                 style="font-family: 'Crimson Text', serif;" id="title3">Know who I am</h1>
             <p class=" text-white text-opacity-60 text-center font-normal" id="text-aboutMe">
-                I'm passionate about continuous learning! <br/><br/> I am participating in Entra21, a well-regarded technology training program in Santa Catarina, Brazil. <br/>My first exposure to the job market was at the age of 14, at Unimed Alto Vale, where I gained a solid understanding of how businesses operate and the benefits of cooperation. <br/><br/>I have had the opportunity to lead a support team for Warehouse Management System (WMS) at a technology company, where I dove into the business rules. <br/>Now, my next goal is to transition into the area of development. <br/>In addition to my passion for technology, I have a love for music, games, business, and books. <br/><br/>My English proficiency is at an intermediate level (B1). <br/><br/>I'm always open to new connections and enjoy sharing experiences.
+                I'm passionate about continuous learning! <br /><br /> I am participating in Entra21, a well-regarded
+                technology training program in Santa Catarina, Brazil. <br />My first exposure to the job market was at
+                the age of 14, at Unimed Alto Vale, where I gained a solid understanding of how businesses operate and
+                the benefits of cooperation. <br /><br />I have had the opportunity to lead a support team for Warehouse
+                Management System (WMS) at a technology company, where I dove into the business rules. <br />Now, my
+                next goal is to transition into the area of development. <br />In addition to my passion for technology,
+                I have a love for music, games, business, and books. <br /><br />My English proficiency is at an
+                intermediate level (B1). <br /><br />I'm always open to new connections and enjoy sharing experiences.
             </p>
             <div class="reveal" style="visibility: hidden;">
-                <h2 class="flex justify-center text-center text-white text-5x1 m-5" id="subtitle2">Let’s now more about me</h2>
+                <h2 class="flex justify-center text-center text-white text-5x1 m-5" id="subtitle2">Let’s now more about
+                    me</h2>
 
                 <div class="m-auto p-5" style="border-radius: 1.25rem;
             border: 1px solid rgba(255, 255, 255, 0.16);;background: linear-gradient(90deg, rgba(0, 65, 80, 0.82) 21.13%, rgba(0, 65, 80, 0.21) 72.88%); padding-bottom: 0; width: 12rem;
@@ -319,7 +335,8 @@ My interest is in Java and Web development</pre>
 
         <section class="my-[4rem] reveal" style="visibility: hidden;">
             <pre class="m-10 text-center" style="color: #70FF00;" id="experiences">M Y  E X P E R I E N C E S</pre>
-            <h1 class="flex justify-center text-center text-white text-4xl" style="font-family: 'Crimson Text', serif;" id="title4">
+            <h1 class="flex justify-center text-center text-white text-4xl" style="font-family: 'Crimson Text', serif;"
+                id="title4">
                 Professional Evolution</h1>
             <div style="margin-top: 2rem;">
                 <div class="flex justify-center"">
@@ -334,12 +351,19 @@ My interest is in Java and Web development</pre>
                 </div>
             </div>
             </div>
-            <p class="flex justify-center text-white text-opacity-60 text-xs" style="margin: 1rem auto;" id="date-experience1">
+            <p class="flex justify-center text-white text-opacity-60 text-xs" style="margin: 1rem auto;"
+                id="date-experience1">
                 May 2022 - Nov 2023 / Rio do Sul, Brazil</p>
             </div>
             <div>
                 <p class=" text-white text-opacity-50 text-base font-normal" id="descriptionExperience1">
-                    I lead a team as the main point of contact for clients on technical matters of the WMS system. <br/>Always keeping an eye on SLAs, ensuring that needs are met quickly and efficiently. <br/>I use SQL skills for database analysis and problem-solving. <br/>I provide support to end-users to resolve system issues. This involves troubleshooting technical issues, explaining system functionalities, and ensuring users can effectively use the platform. <br/>I work closely with the development team to identify flaws and optimize the system, providing feedback to improve system quality and efficiency. <br/>I have experience in dealing with integrations and APIs.
+                    I lead a team as the main point of contact for clients on technical matters of the WMS system.
+                    <br />Always keeping an eye on SLAs, ensuring that needs are met quickly and efficiently. <br />I
+                    use SQL skills for database analysis and problem-solving. <br />I provide support to end-users to
+                    resolve system issues. This involves troubleshooting technical issues, explaining system
+                    functionalities, and ensuring users can effectively use the platform. <br />I work closely with the
+                    development team to identify flaws and optimize the system, providing feedback to improve system
+                    quality and efficiency. <br />I have experience in dealing with integrations and APIs.
             </div>
             </div>
         </section>
