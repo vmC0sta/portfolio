@@ -88,3 +88,4 @@ function updateContent(lang) {
 
 }
 
+changeLanguage('pt')
