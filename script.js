@@ -21,7 +21,7 @@ const data = {
         textAboutMe:"Sou apaixonada por aprendizado contínuo!<br/> Estou participando do Entra21, um programa de formação em tecnologia bem conceituado em Santa Catarina.<br/><br/> Meu primeiro contato com o mercado de trabalho aconteceu aos 14 anos, na Unimed Alto Vale, onde adquiri um conhecimento sólido sobre o funcionamento interno das empresas e a vantagem do cooperativismo. Agora, tive a oportunidade de liderar uma equipe de suporte ao sistema WMS (Warehouse Management System) em uma empresa de tecnologia, onde mergulhei nas complexidades das regras de negócio. Meu próximo objetivo é ingressar na área de desenvolvimento.<br/><br/> Além do meu interesse pela tecnologia, tenho paixão por música, jogos, negócios e livros. Meu nível de inglês é intermediário (B1).<br/><br/> Estou sempre aberta a novas conexões e adoro compartilhar experiências.",
         subtitle2:"Conheça um pouquinho mais sobre mim",
         currentRead:"Leitura atual",
-        experiencies:"E X P E R I Ê N C I A S",
+        experiences:"E X P E R I Ê N C I A S",
         title4:"Evolução Profissional",
         experience1: "Suporte técnico, ",
         dateExperience1:"Maio 2022 - Nov 2023 / Rio do Sul, Brasil",
@@ -60,32 +60,31 @@ function changeLanguage(lang) {
 }
 
 function updateContent(lang) {
-    document.getElementById("nav-about").innerHTML = data[lang].navAbout
-    document.getElementById("nav-whatIdo").innerHTML = data[lang].navWhatIdo
-    document.getElementById("nav-contact").innerHTML = data[lang].navContact
-    document.getElementById("status").innerHTML = data[lang].status
+    document.getElementById("nav-about").innerHTML = data[lang].navAbout;
+    document.getElementById("nav-whatIdo").innerHTML = data[lang].navWhatIdo;
+    document.getElementById("nav-contact").innerHTML = data[lang].navContact;
+    document.getElementById("status").innerHTML = data[lang].status;
     document.getElementById("title1").innerText = data[lang].title;
-    document.getElementById("subtitle-1").innerHTML = data[lang].subtitle1
-    document.getElementById("button-talk").innerHTML = data[lang].buttonTalk
-    document.getElementById("whatIdo").innerHTML = data[lang].whatIdo
-    document.getElementById("title2").innerHTML = data[lang].title2
-    document.getElementById("project1").innerHTML = data[lang].project1
-    document.getElementById("project2").innerHTML = data[lang].project2
-    document.getElementById("project3").innerHTML = data[lang].project3
-    document.getElementsByClassName("button-project")[0].innerHTML = data[lang].btnProject
-    document.getElementsByClassName("button-project")[1].innerHTML = data[lang].btnProject
-    document.getElementsByClassName("button-project")[2].innerHTML = data[lang].btnProject
-    document.getElementById("aboutMe").innerHTML = data[lang].aboutMe
-    document.getElementById("title3").innerHTML = data[lang].title3
-    document.getElementById("text-aboutMe").innerHTML = data[lang].textAboutMe
-    document.getElementById("subtitle2").innerHTML = data[lang].subtitle2
-    document.getElementById("current-read").innerHTML = data[lang].currentRead
-    document.getElementById("experiences").innerHTML = data[lang].experiencies
-    document.getElementById("title4").innerHTML = data[lang].title4
-    document.getElementById("experience1").innerHTML = data[lang].experience1
-    document.getElementById("date-experience1").innerHTML = data[lang].dateExperience1
-    document.getElementById("descriptionExperience1").innerHTML = data[lang].descriptionExperience1
+    document.getElementById("subtitle-1").innerHTML = data[lang].subtitle1;
+    document.getElementById("button-talk").innerHTML = data[lang].buttonTalk;
+    document.getElementById("whatIdo").innerHTML = data[lang].whatIdo;
+    document.getElementById("title2").innerHTML = data[lang].title2;
+    document.getElementById("project1").innerHTML = data[lang].project1;
+    document.getElementById("project2").innerHTML = data[lang].project2;
+    document.getElementById("project3").innerHTML = data[lang].project3;
+    document.getElementsByClassName("button-project")[0].innerHTML = data[lang].btnProject;
+    document.getElementsByClassName("button-project")[1].innerHTML = data[lang].btnProject;
+    document.getElementsByClassName("button-project")[2].innerHTML = data[lang].btnProject;
+    document.getElementById("aboutMe").innerHTML = data[lang].aboutMe;
+    document.getElementById("title3").innerHTML = data[lang].title3;
+    document.getElementById("text-aboutMe").innerHTML = data[lang].textAboutMe;
+    document.getElementById("subtitle2").innerHTML = data[lang].subtitle2;
+    document.getElementById("current-read").innerHTML = data[lang].currentRead;
+    document.getElementById("experiences").innerHTML = data[lang].experiences;
+    document.getElementById("title4").innerHTML = data[lang].title4;
+    document.getElementById("experience1").innerHTML = data[lang].experience1;
+    document.getElementById("date-experience1").innerHTML = data[lang].dateExperience1;
+    document.getElementById("descriptionExperience1").innerHTML = data[lang].descriptionExperience1;
 
 }
 
-changeLanguage('pt');
